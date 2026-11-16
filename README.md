@@ -1,55 +1,36 @@
 # Anonymous Rebuttal Evidence — Generalization of Relighting
 
-This repository provides qualitative evidence for the rebuttal: our model,
-trained on light-stage OLAT captures, **generalizes beyond its training
-distribution** — to (1) full-body in-the-wild portraits and (2) general
-everyday objects. All results are single-feed inference outputs (the w333
-full-window configuration described in the paper), with no per-sample tuning
-and no test-time adaptation.
+Qualitative evidence: relighting generalization to full-body in-the-wild
+portraits and to general objects, plus comparison figures and a video demo.
 
-**How to read the grids:** each row is one subject/object with 8 panels —
-- col 1: input image;
-- cols 2–4: one-light-at-a-time (OLAT) relit frames at lamp positions
-  0 / 165 / 248 of the 331-lamp spiral (fixed exposure — near-black panels
-  are expected when the active lamp faces away from the subject);
-- cols 5–8: relighting under four novel environment maps — one environment
-  per column, shared across all subjects/objects; the corresponding
-  environment maps are shown as thumbnails above these columns (auto
-  exposure).
+**How to read the grids:** each row is one subject/object — col 1 input,
+cols 2–4 one-light (OLAT) frames, cols 5–8 relit under the four environment
+maps shown above the columns.
 
-## 1. Full-body in-the-wild relighting (4 subjects)
+## 1. Full-body in-the-wild (4 subjects)
 
-Inputs are full-body portraits from SHHQ, preprocessed by our in-the-wild
-pipeline (no light-stage capture; the model is never given the test subjects).
+Inputs are full-body portraits from SHHQ.
 
 ![fullbody overview](figs/overview_fullbody.png)
 
-Full-resolution per-subject sheets: [`figs/fullbody/`](figs/fullbody/)
-(subjects: 573, 4628, 4919, 7590).
+Per-subject sheets: [`figs/fullbody/`](figs/fullbody/) (573, 4628, 4919, 7590).
 
-## 2. General object relighting (Composition-1k, 10 objects)
+## 2. General objects (Composition-1k, 10 objects)
 
-Inputs are objects and pets from Composition-1k, relit under novel
-illuminations.
-
-Test domain (6 objects):
+Test domain (6):
 
 ![comp1k test overview](figs/overview_comp1k_test.png)
 
-Train-adobe domain (4 objects):
+Train-adobe domain (4):
 
 ![comp1k train overview](figs/overview_comp1k_train.png)
 
-Full-resolution per-object sheets: [`figs/comp1k/`](figs/comp1k/) (10 objects).
+Per-object sheets: [`figs/comp1k/`](figs/comp1k/) (10 objects).
 
 ## 3. Comparison with diffusion-based relighting (with ground truth)
 
-A held-out light-stage subject relit under three environment maps by two
-diffusion-based relighting methods (RelightLive, DiffusionRenderer) and ours,
-with **light-stage ground-truth (GT) composites** for reference. The diffusion
-baselines introduce color casts, underexposure, and halo/compositing artifacts
-around the hair; ours stays artifact-free with consistent identity and light
-response closest to GT.
+Rows: GT (light-stage composite) / RelightLive / DiffusionRenderer / Ours;
+columns: reference + 3 environments.
 
 ![diffusion comparison](figs/comparison_diffusion_relight.png)
 
@@ -60,6 +41,7 @@ methods. The OLAT directions are not paired one-to-one between the two
 methods (footer note in the figure), but the relighting conditions are.
 Our full lamp coverage directly represents light from behind the subject
 (cf. the rim lighting in case 1).
+
 ![polar comparison](figs/comparison_polar_wild.jpg)
 
 ## 5. Relighting video demo
