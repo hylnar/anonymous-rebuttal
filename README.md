@@ -64,10 +64,7 @@ Our full lamp coverage directly represents light from behind the subject
 
 ## 5. Relighting video demo
 
-Sequential relighting: a portrait relit under a **time-varying environment
-map** (the environment is shown in the top strip of each frame; left =
-input, right = relit). The relit result tracks the changing illumination
-frame by frame.
+A portrait relit under a time-varying environment map (top strip; left = input, right = relit).
 
 ![relight video demo](media/relight_video_demo.mp4)
 
