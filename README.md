@@ -63,7 +63,7 @@ lamp directions are sparser and unpaired with ours (see the footer note in
 the figure). Final two columns: our relight composited with POLAR's
 background vs. POLAR's relight; rightmost: diffuse/chrome probes.
 
-![polar comparison](figs/comparison_polar_wild.png)
+![polar comparison](figs/comparison_polar_wild.jpg)
 
 ---
 *Anonymous evidence repository — provided for review only; please do not
