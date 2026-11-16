@@ -39,8 +39,8 @@ columns: reference + 3 environments.
 Three in-the-wild subjects relit under the same environment maps for both
 methods. The OLAT directions are not paired one-to-one between the two
 methods (footer note in the figure), but the relighting conditions are.
-Our full lamp coverage directly represents light from behind the subject
-(cf. the rim lighting in case 1).
+Columns: 1 input; 2–4 our OLAT; 5–7 POLAR OLAT; 8 our relit;
+9 POLAR relit; 10 diffuse/chrome probes.
 
 ![polar comparison](figs/comparison_polar_wild.jpg)
 
