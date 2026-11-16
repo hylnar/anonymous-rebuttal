@@ -51,6 +51,19 @@ response closest to GT.
 
 ![diffusion comparison](figs/comparison_diffusion_relight.png)
 
+## 4. Comparison with POLAR on in-the-wild inputs
+
+Three in-the-wild subjects relit under an environment whose dominant light is
+rotated **behind** (case 1, 180°), to the **side** (case 2, 90°), and to the
+**front** (case 3, 0°) of the subject. Our light-stage simulation outputs
+OLAT frames over the full lamp sphere — including lamps behind the subject —
+so back-lighting is directly representable (cf. the rim lighting in case 1);
+POLAR's available lamp directions are sparser and unpaired with ours (see the
+footer note in the figure). Final two columns: our relight composited with
+POLAR's background vs. POLAR's relight; rightmost: diffuse/chrome probes.
+
+![polar comparison](figs/comparison_polar_wild.png)
+
 ---
 *Anonymous evidence repository — provided for review only; please do not
 attempt to identify the authors.*
