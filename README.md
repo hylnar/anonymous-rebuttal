@@ -13,7 +13,9 @@ and no test-time adaptation.
   0 / 165 / 248 of the 331-lamp spiral (fixed exposure — near-black panels
   are expected when the active lamp faces away from the subject);
 - cols 5–8: relighting under four novel environment maps — one environment
-  per column, shared across all subjects/objects (auto exposure).
+  per column, shared across all subjects/objects; the corresponding
+  environment maps are shown as thumbnails above these columns (auto
+  exposure).
 
 ## 1. Full-body in-the-wild relighting (4 subjects)
 
