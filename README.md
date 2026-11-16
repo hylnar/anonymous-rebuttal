@@ -48,7 +48,7 @@ Columns: 1 input; 2–4 our OLAT; 5–7 POLAR OLAT; 8 our relit;
 
 A portrait relit under a time-varying environment map (top strip; left = input, right = relit).
 
-![relight video demo](media/relight_video_demo.mp4)
+![relight video demo](figs/relight_video_demo.gif)
 
 ---
 *Anonymous evidence repository — provided for review only; please do not
