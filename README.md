@@ -67,6 +67,15 @@ background vs. POLAR's relight; rightmost: diffuse/chrome probes.
 
 ![polar comparison](figs/comparison_polar_wild.jpg)
 
+## 5. Relighting video demo
+
+Sequential relighting: a portrait relit under a **time-varying environment
+map** (the environment is shown in the top strip of each frame; left =
+input, right = relit). The relit result tracks the changing illumination
+frame by frame.
+
+![relight video demo](media/relight_video_demo.mp4)
+
 ---
 *Anonymous evidence repository — provided for review only; please do not
 attempt to identify the authors.*
