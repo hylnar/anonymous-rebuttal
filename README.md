@@ -36,16 +36,16 @@ columns: reference + 3 environments.
 
 ## 4. Comparison with POLAR on in-the-wild inputs
 
-Three in-the-wild subjects relit under the same environment maps for both
-methods. The OLAT directions are not paired one-to-one between the two
-methods (footer note in the figure), but the relighting conditions are.
+Three in-the-wild subjects. The OLAT directions are not paired one-to-one
+between the two methods (footer note in the figure).
 Columns: 1 input; 2–4 our OLAT; 5–7 POLAR OLAT; 8 our relit;
 9 POLAR relit; 10 diffuse/chrome probes.
 
 ![polar comparison](figs/comparison_polar_wild.jpg)
 
-Variant with the environment-map rotation adjusted to align with the paper's
-figure (D→E 180° → legacy rig 90°):
+We additionally provide a rotated variant, to accommodate what appears to be
+an unknown environment-map rotation in POLAR's results (D→E 180° → legacy
+rig 90°):
 
 ![polar comparison paper-aligned](figs/comparison_polar_paper_aligned.jpg)
 
