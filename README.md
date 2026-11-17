@@ -44,7 +44,7 @@ Columns: 1 input; 2–4 our OLAT; 5–7 POLAR OLAT; 8 our relit;
 ![polar comparison](figs/comparison_polar_wild.jpg)
 
 We additionally provide a rotated variant, to accommodate what appears to be
-an unknown environment-map rotation in POLAR's results (D→E 180° → legacy
+an unknown environment-map rotation across POLAR's different results (D→E 180° → legacy
 rig 90°):
 
 ![polar comparison paper-aligned](figs/comparison_polar_paper_aligned.jpg)
