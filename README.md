@@ -44,6 +44,11 @@ Columns: 1 input; 2–4 our OLAT; 5–7 POLAR OLAT; 8 our relit;
 
 ![polar comparison](figs/comparison_polar_wild.jpg)
 
+Variant with the environment-map rotation adjusted to align with the paper's
+figure (D→E 180° → legacy rig 90°):
+
+![polar comparison paper-aligned](figs/comparison_polar_paper_aligned.jpg)
+
 ## 5. Input-lighting robustness
 
 Each grid: the same subject given two differently-lit inputs (input A: light
