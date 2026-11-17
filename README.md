@@ -51,7 +51,7 @@ figure (D→E 180° → legacy rig 90°):
 
 ## 5. Input-lighting robustness
 
-Each grid: the same subject given two differently-lit inputs (input A: light
+Examples are picked from the test set. Each grid: the same subject given two differently-lit inputs (input A: light
 from the left; input B: light from the right); columns show the same output
 condition (same OLAT lamp frame / same relit environment map, no GT).
 Outputs from both inputs converge — shadows in the input are not baked into
