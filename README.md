@@ -63,9 +63,9 @@ the output.
 
 ![envinputs 116_081](figs/envinputs_116_081.png)
 
-## 6. Relighting video demo
+## 6. Talking-head relighting demo
 
-A portrait relit under a time-varying environment map (top strip; left = input, right = relit).
+Talking-head demo (left = input, right = relit).
 
 ![relight video demo](figs/relight_video_demo.gif)
 
