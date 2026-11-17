@@ -44,7 +44,25 @@ Columns: 1 input; 2–4 our OLAT; 5–7 POLAR OLAT; 8 our relit;
 
 ![polar comparison](figs/comparison_polar_wild.jpg)
 
-## 5. Relighting video demo
+## 5. Input-lighting robustness
+
+Each grid: the same subject given two differently-lit inputs (input A: light
+from the left; input B: light from the right); columns show the same output
+condition (same OLAT lamp frame / same relit environment map, no GT).
+Outputs from both inputs converge — shadows in the input are not baked into
+the output. The in-the-wild environment conditions are re-derived, since the
+original comparison figure (POLAR, p.7 Fig.6) does not specify whether its
+environment maps were rotated.
+
+![envinputs 096_128](figs/envinputs_096_128.png)
+
+![envinputs 112_102](figs/envinputs_112_102.png)
+
+![envinputs 116_081](figs/envinputs_116_081.png)
+
+![envinputs v3](figs/envinputs_v3.png)
+
+## 6. Relighting video demo
 
 A portrait relit under a time-varying environment map (top strip; left = input, right = relit).
 
